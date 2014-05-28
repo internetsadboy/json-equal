@@ -1,0 +1,29 @@
+{
+  "name": "json-equal",
+  "version": "0.0.1",
+  "description": "return whether two jsons are equal",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghostsnstuff/json-equal.git"
+  },
+  "keywords": [
+    "json",
+    "equal"
+  ],
+  "author": "jared <jaredhalpert90@gmail.com> (http://jaredhalpert.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostsnstuff/json-equal/issues"
+  },
+  "homepage": "https://github.com/ghostsnstuff/json-equal",
+  "dependencies": {
+    "tape":"*"
+  }
+}
