@@ -5,19 +5,19 @@ test('equal', function(t) {
   t.plan(1)
   var eq = equal(
       {
-        "a":"a",
-        "b":[1.100003,1,3,4,5],
-        "c":{
-          "m":"m",
-          "n":[1,2,3]
+        a:'a',
+        b:[1.100003,1,3,4,5],
+        c:{
+          m:'m',
+          n:[1,2,3]
         }
       },
       {
-        "a":"a",
-        "b":[1.100003,1,3,4,5],
-        "c":{
-          "m":"m",
-          "n":[1,2,3]
+        a:'a',
+        b:[1.100003,1,3,4,5],
+        c:{
+          m:'m',
+          n:[1,2,3]
         }
       }
     )
@@ -28,7 +28,7 @@ test('equal', function(t) {
 test('not equal', function(t) {
   t.plan(1)
   var eq = equal(
-    {a:"a"},
+    {a:'a'},
     {b:[1,2,3]}
   )
   t.deepEqual(eq,false)

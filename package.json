@@ -1,6 +1,6 @@
 {
   "name": "json-equal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "return whether two jsons are equal",
   "main": "index.js",
   "directories": {
