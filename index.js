@@ -1,5 +1,3 @@
-var isJSON = require('is-json')
-
 module.exports = equal = function(a,b) {
   function assert(a,b) {
     for(var key in a) {

@@ -4,6 +4,9 @@ return whether two jsons are equal
 ## installation
     npm install json-equal
 
+## jsonEqual(a,b)
+returns a boolean indicating whether jsons `a` and `b` are equal
+
 ## usage
 ```javascript
 var jsonEqual = require('json-equal')
@@ -37,6 +40,3 @@ output
 true
 false
 ```
-
-## jsonEqual(a,b)
-`return` whether two jsons `a` and `b` are equal
